@@ -1,6 +1,8 @@
 // import React from 'react'
 
 import { Box } from "@mui/material";
+import { Link } from "react-router-dom";
+import logo from "../../assets/logo.png"
 
 const Footer = () => {
   return (
@@ -33,24 +35,24 @@ const Footer = () => {
               </p>
 
               <div className="flex flex-col items-start mt-5 space-y-2">
-                <a
-                  href="#"
+                <Link
+                  to="/book"
                   className="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-blue-500"
                 >
-                  Home
-                </a>
-                <a
-                  href="#"
+                  Book Space
+                </Link>
+                <Link
+                  to="/about"
                   className="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-blue-500"
                 >
-                  Who We Are
-                </a>
-                <a
-                  href="#"
+                  About
+                </Link>
+                <Link
+                  to="/tnc"
                   className="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-blue-500"
                 >
-                  Our Philosophy
-                </a>
+                  T&C
+                </Link>
               </div>
             </div>
 
@@ -60,24 +62,24 @@ const Footer = () => {
               </p>
 
               <div className="flex flex-col items-start mt-5 space-y-2">
-                <a
-                  href="#"
+                <Link
+                  to="/blogs"
                   className="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-blue-500"
                 >
-                  Retail & E-Commerce
-                </a>
-                <a
-                  href="#"
+                  Blog
+                </Link>
+                <Link
+                  to="/add"
                   className="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-blue-500"
                 >
-                  Information Technology
-                </a>
-                <a
-                  href="#"
+                  Add Space
+                </Link>
+                <Link
+                  to="/contact"
                   className="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-blue-500"
                 >
-                  Finance & Insurance
-                </a>
+                  Support
+                </Link>
               </div>
             </div>
           </div>
@@ -88,7 +90,7 @@ const Footer = () => {
             <a href="#">
               <img
                 className="w-auto h-7"
-                src="https://merakiui.com/images/full-logo.svg"
+                src={logo}
                 alt=""
               />
             </a>
