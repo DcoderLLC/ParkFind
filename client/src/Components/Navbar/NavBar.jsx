@@ -1,6 +1,7 @@
 import { Box } from "@mui/material";
 import { useState } from "react";
 import logo from "../../assets/logo.png";
+import { Link } from "react-router-dom";
 
 const NavBar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -15,9 +16,9 @@ const NavBar = () => {
         <div className="container px-6 py-4 mx-auto">
           <div className="lg:flex lg:items-center">
             <div className="flex items-center justify-between">
-              <a href="#">
+              <Link to="/">
                 <img className="w-auto h-14" src={logo} alt="Logo" />
-              </a>
+              </Link>
 
               {/* Mobile menu button */}
               <div className="flex lg:hidden">
@@ -68,36 +69,30 @@ const NavBar = () => {
               } absolute inset-x-0 z-20 flex-1 w-full px-6 py-4 transition-all duration-300 ease-in-out bg-white lg:mt-0 lg:p-0 lg:top-0 lg:relative lg:bg-transparent lg:w-auto lg:opacity-100 lg:translate-x-0 lg:flex lg:items-center lg:justify-between`}
             >
               <div className="flex flex-col text-gray-600 capitalize lg:flex lg:px-16 lg:-mx-4 lg:flex-row lg:items-center">
-                <a
-                  href="#"
+                <Link
+                  to="/book"
                   className="mt-2 transition-colors duration-300 transform lg:mt-0 lg:mx-4 hover:underline underline-offset-4 decoration-slate-900 hover:text-gray-900"
                 >
-                  Features
-                </a>
-                <a
-                  href="#"
+                  Booking
+                </Link>
+                <Link
+                  to="/add"
                   className="mt-2 transition-colors duration-300 transform lg:mt-0 lg:mx-4 hover:underline underline-offset-4 decoration-slate-900 hover:text-gray-900"
                 >
-                  Downloads
-                </a>
-                <a
-                  href="#"
-                  className="mt-2 transition-colors duration-300 transform lg:mt-0 lg:mx-4 hover:underline underline-offset-4 decoration-slate-900 hover:text-gray-900"
-                >
-                  Docs
-                </a>
-                <a
-                  href="#"
-                  className="mt-2 transition-colors duration-300 transform lg:mt-0 lg:mx-4 hover:underline underline-offset-4 decoration-slate-900 hover:text-gray-900"
-                >
-                  Support
-                </a>
-                <a
-                  href="#"
+                  Add Space
+                </Link>
+                <Link
+                  to="/blogs"
                   className="mt-2 transition-colors duration-300 transform lg:mt-0 lg:mx-4 hover:underline underline-offset-4 decoration-slate-900 hover:text-gray-900"
                 >
                   Blog
-                </a>
+                </Link>
+                <Link
+                  to="/contact"
+                  className="mt-2 transition-colors duration-300 transform lg:mt-0 lg:mx-4 hover:underline underline-offset-4 decoration-slate-900 hover:text-gray-900"
+                >
+                  Support
+                </Link>
               </div>
             </div>
             {/* Social media links */}

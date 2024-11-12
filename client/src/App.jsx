@@ -9,6 +9,7 @@ import Blog from "./Pages/Blog";
 import Tnc from "./Pages/Tnc";
 import Form from "./Components/Contact/Form";
 import Notfound from './Components/NotFound/Notfound';
+import AddSpace from "./Pages/AddSpace";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Routes>
           <Route path="/" excat element={<Home />} />
           <Route path="/book" excat element={<Booking />} />
+          <Route path="/add" excat element={<AddSpace />} />
           <Route path="/blogs" excat element={<Blog />} />
           <Route path="/contact" excat element={<Form />} />
           <Route path="/tnc" excat element={<Tnc />} />
