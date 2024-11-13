@@ -7,7 +7,7 @@ const HomeProd = () => {
     <Box>
       <div className="flex flex-col items-center px-4 py-8 bg-gray-50 md:px-16">
         <h2 className="text-3xl font-bold text-gray-800 mb-8">
-          Theres an Ola ride for everyone
+          Theres an Spot for everyone
         </h2>
 
         <div className="grid gap-8 md:grid-cols-3">
@@ -31,8 +31,8 @@ const HomeProd = () => {
               For any distance
             </h3>
             <p className="text-gray-600 text-center">
-              Book rides within the city with <strong>Daily</strong>, or take a
-              trip to your favourite destinations outside the city with{" "}
+              Book spot within the city with <strong>Daily</strong>, or book a
+              spot to your favourite destinations outside the city with{" "}
               <strong>Outstation</strong>.
             </p>
           </div>
