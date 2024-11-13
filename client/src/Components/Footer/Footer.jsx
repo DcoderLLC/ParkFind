@@ -2,7 +2,7 @@
 
 import { Box } from "@mui/material";
 import { Link } from "react-router-dom";
-import logo from "../../assets/logo.png"
+import logo from "../../assets/images.png"
 
 const Footer = () => {
   return (
@@ -23,7 +23,7 @@ const Footer = () => {
                   placeholder="Email Address"
                 />
 
-                <button className="w-full px-6 py-2.5 text-sm font-medium tracking-wider text-white transition-colors duration-300 transform md:w-auto md:mx-4 focus:outline-none bg-gray-800 rounded-lg hover:bg-gray-700 focus:ring focus:ring-gray-300 focus:ring-opacity-80">
+                <button className="w-full px-6 py-2.5 text-sm font-medium tracking-wider text-white transition-colors duration-300 transform md:w-auto md:mx-4 focus:outline-none bg-[#0FC774] rounded-lg  focus:ring focus:ring-gray-300 focus:ring-opacity-80">
                   Subscribe
                 </button>
               </div>
@@ -37,19 +37,19 @@ const Footer = () => {
               <div className="flex flex-col items-start mt-5 space-y-2">
                 <Link
                   to="/book"
-                  className="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-blue-500"
+                  className="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-[#0FC774] hover:underline hover:text-[#0FC774]"
                 >
                   Book Space
                 </Link>
                 <Link
                   to="/about"
-                  className="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-blue-500"
+                  className="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-[#0FC774] hover:underline hover:text-[#0FC774]"
                 >
                   About
                 </Link>
                 <Link
                   to="/tnc"
-                  className="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-blue-500"
+                  className="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-[#0FC774] hover:underline hover:text-[#0FC774]"
                 >
                   T&C
                 </Link>
@@ -64,19 +64,19 @@ const Footer = () => {
               <div className="flex flex-col items-start mt-5 space-y-2">
                 <Link
                   to="/blogs"
-                  className="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-blue-500"
+                  className="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-[#0FC774] hover:underline hover:text-[#0FC774]"
                 >
                   Blog
                 </Link>
                 <Link
                   to="/add"
-                  className="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-blue-500"
+                  className="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-[#0FC774] hover:underline hover:text-[#0FC774]"
                 >
                   Add Space
                 </Link>
                 <Link
                   to="/contact"
-                  className="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-blue-500"
+                  className="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-[#0FC774] hover:underline hover:text-[#0FC774]"
                 >
                   Support
                 </Link>

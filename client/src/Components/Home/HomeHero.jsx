@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Box } from "@mui/material";
-import asset1 from "../../assets/page background.png";
+import asset1 from "../../assets/bg.png";
 import { FaLongArrowAltRight } from "react-icons/fa";
 
 const HomeHero = () => {
@@ -14,7 +14,7 @@ const HomeHero = () => {
     <Box>
       <div className="w-full h-auto">
         <img
-          className="w-full h-auto"
+          className="w-full h-auto opacity-80 bg-black"
           width="100%"
           height="auto"
           src={asset1}

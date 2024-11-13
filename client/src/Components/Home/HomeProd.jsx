@@ -13,7 +13,7 @@ const HomeProd = () => {
         <div className="grid gap-8 md:grid-cols-3">
           {/* For any budget */}
           <div className="flex flex-col items-center p-6 bg-green-50 rounded-lg shadow-md">
-            <FaBusAlt className="text-6xl text-gray-800 mb-4" />
+            <FaBusAlt className="text-6xl text-[#0FC774] mb-4" />
             <h3 className="text-xl font-semibold text-gray-800 mb-2">
               For any budget
             </h3>
@@ -26,7 +26,7 @@ const HomeProd = () => {
 
           {/* For any distance */}
           <div className="flex flex-col items-center p-6 bg-green-50 rounded-lg shadow-md">
-            <FaCar className="text-6xl text-gray-800 mb-4" />
+            <FaCar className="text-6xl text-[#0FC774] mb-4" />
             <h3 className="text-xl font-semibold text-gray-800 mb-2">
               For any distance
             </h3>
@@ -39,7 +39,7 @@ const HomeProd = () => {
 
           {/* For any duration */}
           <div className="flex flex-col items-center p-6 bg-green-50 rounded-lg shadow-md">
-            <FaClock className="text-6xl text-gray-800 mb-4" />
+            <FaClock className="text-6xl text-[#0FC774] mb-4" />
             <h3 className="text-xl font-semibold text-gray-800 mb-2">
               For any duration
             </h3>

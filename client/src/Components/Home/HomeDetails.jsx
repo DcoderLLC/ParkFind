@@ -19,7 +19,7 @@ const HomeDetails = () => {
           {/* Stat 1 - Cities covered */}
           <div className="flex flex-col items-center">
             <div className="flex items-center justify-center w-20 h-20 bg-green-50 rounded-full mb-4">
-              <FaCity className="text-4xl text-gray-800" />
+              <FaCity className="text-4xl text-[#0FC774]" />
             </div>
             <h3 className="text-2xl font-semibold text-gray-800 mb-2">250+</h3>
             <p className="font-medium text-gray-600 text-center">
@@ -33,7 +33,7 @@ const HomeDetails = () => {
           {/* Stat 2 - Yearly rides */}
           <div className="flex flex-col items-center">
             <div className="flex items-center justify-center w-20 h-20 bg-green-50 rounded-full mb-4">
-              <FaChartLine className="text-4xl text-gray-800" />
+              <FaChartLine className="text-4xl text-[#0FC774]" />
             </div>
             <h3 className="text-2xl font-semibold text-gray-800 mb-2">
               55 Cr+
@@ -49,7 +49,7 @@ const HomeDetails = () => {
           {/* Stat 3 - Kilometers on S1 */}
           <div className="flex flex-col items-center">
             <div className="flex items-center justify-center w-20 h-20 bg-green-50 rounded-full mb-4">
-              <FaBolt className="text-4xl text-gray-800" />
+              <FaBolt className="text-4xl text-[#0FC774]" />
             </div>
             <h3 className="text-2xl font-semibold text-gray-800 mb-2">
               12 Cr+

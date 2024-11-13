@@ -1,6 +1,6 @@
 import { Box } from "@mui/material";
 import { useState } from "react";
-import logo from "../../assets/logo.png";
+import logo from "../../assets/images.png";
 import { Link } from "react-router-dom";
 
 const NavBar = () => {
@@ -71,25 +71,25 @@ const NavBar = () => {
               <div className="flex flex-col text-gray-600 capitalize lg:flex lg:px-16 lg:-mx-4 lg:flex-row lg:items-center">
                 <Link
                   to="/book"
-                  className="mt-2 transition-colors duration-300 transform lg:mt-0 lg:mx-4 hover:underline underline-offset-4 decoration-slate-900 hover:text-gray-900"
+                  className="mt-2 transition-colors duration-300 transform lg:mt-0 lg:mx-4 hover:underline underline-offset-4 decoration-[#0FC774] hover:text-[#0FC774]"
                 >
                   Booking
                 </Link>
                 <Link
                   to="/add"
-                  className="mt-2 transition-colors duration-300 transform lg:mt-0 lg:mx-4 hover:underline underline-offset-4 decoration-slate-900 hover:text-gray-900"
+                  className="mt-2 transition-colors duration-300 transform lg:mt-0 lg:mx-4 hover:underline underline-offset-4 decoration-[#0FC774] hover:text-[#0FC774]"
                 >
                   Add Space
                 </Link>
                 <Link
                   to="/blogs"
-                  className="mt-2 transition-colors duration-300 transform lg:mt-0 lg:mx-4 hover:underline underline-offset-4 decoration-slate-900 hover:text-gray-900"
+                  className="mt-2 transition-colors duration-300 transform lg:mt-0 lg:mx-4 hover:underline underline-offset-4 decoration-[#0FC774] hover:text-[#0FC774]"
                 >
                   Blog
                 </Link>
                 <Link
                   to="/contact"
-                  className="mt-2 transition-colors duration-300 transform lg:mt-0 lg:mx-4 hover:underline underline-offset-4 decoration-slate-900 hover:text-gray-900"
+                  className="mt-2 transition-colors duration-300 transform lg:mt-0 lg:mx-4 hover:underline underline-offset-4 decoration-[#0FC774] hover:text-[#0FC774]"
                 >
                   Support
                 </Link>
@@ -97,11 +97,11 @@ const NavBar = () => {
             </div>
             {/* Social media links */}
             <div className="flex justify-center mt-6 lg:flex lg:mt-0 lg:-mx-2">
-              <button className="px-10 py-2 mx-5 text-sm font-medium text-gray-600 transition-colors duration-200 sm:text-base sm:px-6 border border-gray-600  hover:bg-gray-600 hover:text-white">
+              <button className="px-10 py-2 mx-5 text-sm font-medium text-[#0FC774] transition-colors duration-200 sm:text-base sm:px-6 border border-[#0FC774]  hover:bg-[#0FC774] hover:text-white">
                 Find the Spot
               </button>
-              <button className="px-6 py-2 font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-blue-600  hover:bg-blue-500 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-80">
-                Add your Parkingo
+              <button className="px-6 py-2 font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-[#0FC774]  hover:bg-[#0FC774] focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-80">
+                Add your Parking
               </button>
             </div>
           </div>
