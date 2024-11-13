@@ -2,6 +2,7 @@ import { Box, Button, TextField, Tabs, Tab } from "@mui/material";
 import { FaMapMarkerAlt } from "react-icons/fa";
 import { AiOutlineSearch } from "react-icons/ai";
 import banner from "../../assets/AXLCNH4Z3ZM-HD.jpg";
+import { Link } from "react-router-dom";
 
 const HomeHero = () => {
   return (
@@ -23,8 +24,8 @@ const HomeHero = () => {
         <Tabs
           value={0}
           className="bg-[#0FC774] text-white rounded-lg"
-          // indicatorColor="primary"
-          // textColor="primary"
+          indicatorColor="primary"
+          textColor="white"
           centered
         >
           <Tab label="Daily" />
@@ -46,14 +47,16 @@ const HomeHero = () => {
             fullWidth
           />
         </Box>
-        <Button
-          variant="contained"
-          color="success"
-          startIcon={<AiOutlineSearch />}
-          className="ml-4 px-6 font-bold text-white bg-black hover:bg-green-700"
-        >
-          SEARCH THE SPOT
-        </Button>
+        <Link to="/book">
+          <Button
+            variant="contained"
+            color="success"
+            startIcon={<AiOutlineSearch />}
+            className="ml-4 px-6 font-bold text-white bg-black hover:bg-green-700"
+          >
+            SEARCH THE SPOT
+          </Button>
+        </Link>
       </Box>
     </Box>
   );
