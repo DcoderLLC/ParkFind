@@ -5,18 +5,18 @@ import { Box } from "@mui/material";
 const Form = () => {
   return (
     <Box>
-      <section className="bg-white dark:bg-gray-900">
+      <section className="bg-gray-300">
         <div className="container px-6 py-12 mx-auto">
           <div>
-            <p className="font-medium text-blue-500 dark:text-blue-400">
+            <p className="font-medium text-blue-500 ">
               Contact us
             </p>
 
-            <h1 className="mt-2 text-2xl font-semibold text-gray-800 md:text-3xl dark:text-white">
+            <h1 className="mt-2 text-2xl font-semibold text-gray-800 md:text-3xl ">
               Chat to our friendly team
             </h1>
 
-            <p className="mt-3 text-gray-500 dark:text-gray-400">
+            <p className="mt-3 text-gray-500">
               We’d love to hear from you. Please fill out this form or shoot us
               an email.
             </p>
@@ -25,7 +25,7 @@ const Form = () => {
           <div className="grid grid-cols-1 gap-12 mt-10 lg:grid-cols-2">
             <div className="grid grid-cols-1 gap-12 md:grid-cols-2">
               <div>
-                <span className="inline-block p-3 text-blue-500 rounded-full bg-blue-100/80 dark:bg-gray-800">
+                <span className="inline-block p-3 text-blue-500 rounded-full bg-blue-100/80 ">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
@@ -42,19 +42,19 @@ const Form = () => {
                   </svg>
                 </span>
 
-                <h2 className="mt-4 text-base font-medium text-gray-800 dark:text-white">
+                <h2 className="mt-4 text-base font-medium text-gray-800 ">
                   Email
                 </h2>
-                <p className="mt-2 text-sm text-gray-500 dark:text-gray-400">
+                <p className="mt-2 text-sm text-gray-500">
                   Our friendly team is here to help.
                 </p>
-                <p className="mt-2 text-sm text-blue-500 dark:text-blue-400">
+                <p className="mt-2 text-sm text-[#0FC774] ">
                   hello@merakiui.com
                 </p>
               </div>
 
               <div>
-                <span className="inline-block p-3 text-blue-500 rounded-full bg-blue-100/80 dark:bg-gray-800">
+                <span className="inline-block p-3 text-blue-500 rounded-full bg-blue-100/80 ">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
@@ -76,19 +76,19 @@ const Form = () => {
                   </svg>
                 </span>
 
-                <h2 className="mt-4 text-base font-medium text-gray-800 dark:text-white">
+                <h2 className="mt-4 text-base font-medium text-gray-800 ">
                   Live chat
                 </h2>
-                <p className="mt-2 text-sm text-gray-500 dark:text-gray-400">
+                <p className="mt-2 text-sm text-gray-500">
                   Our friendly team is here to help.
                 </p>
-                <p className="mt-2 text-sm text-blue-500 dark:text-blue-400">
+                <p className="mt-2 text-sm text-[#0FC774] ">
                   Start new chat
                 </p>
               </div>
 
               <div>
-                <span className="inline-block p-3 text-blue-500 rounded-full bg-blue-100/80 dark:bg-gray-800">
+                <span className="inline-block p-3 text-blue-500 rounded-full bg-blue-100/80 ">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
@@ -110,19 +110,19 @@ const Form = () => {
                   </svg>
                 </span>
 
-                <h2 className="mt-4 text-base font-medium text-gray-800 dark:text-white">
+                <h2 className="mt-4 text-base font-medium text-gray-800 ">
                   Office
                 </h2>
-                <p className="mt-2 text-sm text-gray-500 dark:text-gray-400">
+                <p className="mt-2 text-sm text-gray-500">
                   Come say hello at our office HQ.
                 </p>
-                <p className="mt-2 text-sm text-blue-500 dark:text-blue-400">
+                <p className="mt-2 text-sm text-[#0FC774] ">
                   100 Smith Street Collingwood VIC 3066 AU
                 </p>
               </div>
 
               <div>
-                <span className="inline-block p-3 text-blue-500 rounded-full bg-blue-100/80 dark:bg-gray-800">
+                <span className="inline-block p-3 text-blue-500 rounded-full bg-blue-100/80 ">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
@@ -139,13 +139,13 @@ const Form = () => {
                   </svg>
                 </span>
 
-                <h2 className="mt-4 text-base font-medium text-gray-800 dark:text-white">
+                <h2 className="mt-4 text-base font-medium text-gray-800 ">
                   Phone
                 </h2>
-                <p className="mt-2 text-sm text-gray-500 dark:text-gray-400">
+                <p className="mt-2 text-sm text-gray-500">
                   Mon-Fri from 8am to 5pm.
                 </p>
-                <p className="mt-2 text-sm text-blue-500 dark:text-blue-400">
+                <p className="mt-2 text-sm text-[#0FC774] ">
                   +1 (555) 000-0000
                 </p>
               </div>
@@ -155,7 +155,7 @@ const Form = () => {
               <form>
                 <div className="-mx-2 md:items-center md:flex">
                   <div className="flex-1 px-2">
-                    <label className="block mb-2 text-sm text-gray-600 dark:text-gray-200">
+                    <label className="block mb-2 text-sm text-white ">
                       First Name
                     </label>
                     <input
@@ -166,7 +166,7 @@ const Form = () => {
                   </div>
 
                   <div className="flex-1 px-2 mt-4 md:mt-0">
-                    <label className="block mb-2 text-sm text-gray-600 dark:text-gray-200">
+                    <label className="block mb-2 text-sm text-white ">
                       Last Name
                     </label>
                     <input
@@ -178,7 +178,7 @@ const Form = () => {
                 </div>
 
                 <div className="mt-4">
-                  <label className="block mb-2 text-sm text-gray-600 dark:text-gray-200">
+                  <label className="block mb-2 text-sm text-white ">
                     Email address
                   </label>
                   <input
@@ -189,7 +189,7 @@ const Form = () => {
                 </div>
 
                 <div className="w-full mt-4">
-                  <label className="block mb-2 text-sm text-gray-600 dark:text-gray-200">
+                  <label className="block mb-2 text-sm text-white ">
                     Message
                   </label>
                   <textarea
@@ -198,7 +198,7 @@ const Form = () => {
                   ></textarea>
                 </div>
 
-                <button className="w-full px-6 py-3 mt-4 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-blue-500 rounded-lg hover:bg-blue-400 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-50">
+                <button className="w-full px-6 py-3 mt-4 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-[#0FC774] rounded-lg hover:bg-[#0FC774] focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-50">
                   Send message
                 </button>
               </form>
